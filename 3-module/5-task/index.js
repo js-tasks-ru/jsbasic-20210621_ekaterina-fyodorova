@@ -5,8 +5,8 @@ function getMinMax(str) {
   let numbers = arr.filter(item => item && isFinite(item));
 
   return {
-    'max': Math.max(...numbers),
-    'min': Math.min(...numbers)
+    max: Math.max(...numbers),
+    min: Math.min(...numbers)
   };
 
 }
